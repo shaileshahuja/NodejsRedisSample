@@ -1,0 +1,30 @@
+{
+  "name": "nodejsredissample",
+  "version": "1.0.0",
+  "description": "A sample nodejs server that serves from a redis db",
+  "main": "main.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "redis": "^2.7.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "test": "mocha test/objects.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaileshahuja/NodejsRedisSample.git"
+  },
+  "author": "Shailesh Ahuja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaileshahuja/NodejsRedisSample/issues"
+  },
+  "homepage": "https://github.com/shaileshahuja/NodejsRedisSample#readme"
+}
